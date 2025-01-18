@@ -16,6 +16,8 @@ import XAIProvider from './providers/xai';
 import HyperbolicProvider from './providers/hyperbolic';
 import AmazonBedrockProvider from './providers/amazon-bedrock';
 import GithubProvider from './providers/github';
+import HyprV1Provider from './providers/hypr-v1.ts';
+import HyprV2Provider from './providers/hypr-v2.ts';
 
 export {
   AnthropicProvider,
@@ -36,4 +38,6 @@ export {
   LMStudioProvider,
   AmazonBedrockProvider,
   GithubProvider,
+  HyprV1Provider,
+  HyprV2Provider,
 };
