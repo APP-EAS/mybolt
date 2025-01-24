@@ -14,7 +14,7 @@ export default class HyprV1Provider extends BaseProvider {
 // find more in https://github.com/marketplace?type=models
   staticModels: ModelInfo[] = [
     { name: 'deepseek-chat', label: 'Deepseek Chat (latest, 0.126)', provider: this.name, maxTokenAllowed: 128000 },
-  	{ name: 'deepseek-reasoner', label: 'Deepseek Reasoner (latest, 0.168)', provider: this.name, maxTokenAllowed: 128000 },
+  	{ name: 'deepseek-reasoner', label: 'Deepseek Reasoner (latest, 1.631)', provider: this.name, maxTokenAllowed: 128000 },
     { name: 'codestral-2405', label: 'Codestral (May24, 0.78)', provider: this.name, maxTokenAllowed: 32768 },
   	{ name: 'mistral-large-2411', label: 'Mistral Large (Nov24, 2.40)', provider: this.name, maxTokenAllowed: 131072 },
   	{ name: 'gemini-2.0-flash-exp', label: 'Gemini 2.0 Flash (latest, 0.15)', provider: this.name, maxTokenAllowed: 1048576 },
